@@ -1,0 +1,290 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("Sf-Pro.otf") format(opentype);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "SF Pro Display";
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  padding: 20px 104px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    padding: 20px 16px;
+  }
+}
+
+.nav--list > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Nav--list {
+  display: flex;
+  gap: 32px;
+}
+
+main {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.j1-h {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 4rem;
+}
+@media only screen and (min-width: 870px) {
+  .j1-h {
+    font-size: 7.2rem;
+  }
+
+  .j1-pic {
+    width: 310px;
+  }
+
+  .j1-p {
+    font-size: 2.72rem;
+  }
+
+  .jumbtroncontainer {
+    justify-content: space-between;
+  }
+
+  .s3-h {
+    font-size: 7.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .s3-detail {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (min-width: 670px) {
+  .j1-h {
+    font-size: 6rem;
+  }
+
+  .j1-p {
+    font-size: 2.04rem;
+  }
+}
+
+.picme {
+  height: 210px;
+}
+
+.jumbotron {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbtroncontainer {
+  max-width: 1090px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.j1-c1 {
+  max-width: 600px;
+  display: flex;
+  width: 100%;
+  max-width: 1090px;
+  flex: 1 1 0%;
+  flex-direction: column;
+  justify-content: center;
+  flex-items: start;
+}
+
+.j1-p {
+  margin: 0px;
+  max-width: 470px;
+  font-size: 1.7rem;
+}
+
+.j1-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.grey {
+  color: grey;
+}
+
+.section2 {
+  height: 100%;
+}
+
+.about {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.a1-c1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+  max-width: 1090px;
+}
+
+.a1-pic {
+  max-width: 300px;
+  min-width: 220px;
+  width: 100%;
+  display: block;
+}
+
+.a1-text {
+  width: 100%;
+  margin-left: 7rem;
+}
+
+.a1-p {
+  font-size: 1.7rem;
+}
+
+.s-container {
+  padding: 5rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  box-sizing: border-box;
+  padding-bottom: 0px;
+}
+
+.s-container1 {
+  padding: 5rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  box-sizing: border-box;
+  padding-top: 0px;
+  margin-top: -100px;
+}
+
+.s3-c1 {
+  padding: 2rem 4rem;
+  display: flex;
+  box-sizing: border-box;
+  margin: 5rem 0;
+  flex-direction: column;
+  max-width: 1090px;
+  background-color: #f2f2f2;
+}
+
+.s3-h {
+  margin-top: 0px;
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 4rem;
+}
+
+.s3-pic {
+  margin: 0 auto 3rem;
+  width: 100%;
+}
+
+.a1-h {
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-828823625665047-1;
+}
+
+.s3-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s3-desc {
+  max-width: 500px;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 0 3rem;
+  min-height: 70vh;
+}
+
+.footercontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.iconcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-bottom: 10rem;
+  width: 100%;
+  min-width: 50px;
+  max-width: 250px;
+}
+
+a {
+  text-decoration: none;
+  color: #0000;
+}
+
+.foot-pic {
+  width: 70px;
+}
+
+.footbar {
+  justify-self: flex-end;
+}
+
+.footbar1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.footbar2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-pic:hover {
+  transform: translateY(-10px) translateZ(0);
+}
